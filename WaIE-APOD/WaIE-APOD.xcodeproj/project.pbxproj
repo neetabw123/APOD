@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BCD23AA127D1C64913B498 /* Pods_WaIE_APOD_WaIE_APODUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B0ADD9F454E112CED310FC /* Pods_WaIE_APOD_WaIE_APODUITests.framework */; };
+		08EFE5108638FB3D50C4EC91 /* Pods_WaIE_APODTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116EBBCAAA8D4CBFD7BD7CA8 /* Pods_WaIE_APODTests.framework */; };
+		A36BE3364B8EC753DEC4B269 /* Pods_WaIE_APOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63261FD8F719874176B2CE70 /* Pods_WaIE_APOD.framework */; };
+		BDE34DF02931EB5800B12EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34DEF2931EB5800B12EBE /* AppDelegate.swift */; };
+		BDE34DF22931EB5800B12EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34DF12931EB5800B12EBE /* SceneDelegate.swift */; };
+		BDE34DF42931EB5800B12EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34DF32931EB5800B12EBE /* ViewController.swift */; };
+		BDE34DF72931EB5800B12EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE34DF52931EB5800B12EBE /* Main.storyboard */; };
+		BDE34DFA2931EB5800B12EBE /* WaIE_APOD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDE34DF82931EB5800B12EBE /* WaIE_APOD.xcdatamodeld */; };
+		BDE34DFC2931EB5B00B12EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE34DFB2931EB5B00B12EBE /* Assets.xcassets */; };
+		BDE34DFF2931EB5B00B12EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE34DFD2931EB5B00B12EBE /* LaunchScreen.storyboard */; };
+		BDE34E0A2931EB5B00B12EBE /* WaIE_APODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E092931EB5B00B12EBE /* WaIE_APODTests.swift */; };
+		BDE34E142931EB5B00B12EBE /* WaIE_APODUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E132931EB5B00B12EBE /* WaIE_APODUITests.swift */; };
+		BDE34E162931EB5B00B12EBE /* WaIE_APODUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E152931EB5B00B12EBE /* WaIE_APODUITestsLaunchTests.swift */; };
+		BDE34E232931EBEB00B12EBE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E222931EBEB00B12EBE /* APIManager.swift */; };
+		BDE34E2729328F0300B12EBE /* APODData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E2529328F0300B12EBE /* APODData+CoreDataProperties.swift */; };
+		BDE34E2829328F0300B12EBE /* APODData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E2629328F0300B12EBE /* APODData+CoreDataClass.swift */; };
+		BDE34E2A29329C3A00B12EBE /* reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE34E2929329C3A00B12EBE /* reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE34E062931EB5B00B12EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE34DE42931EB5800B12EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE34DEB2931EB5800B12EBE;
+			remoteInfo = "WaIE-APOD";
+		};
+		BDE34E102931EB5B00B12EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE34DE42931EB5800B12EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE34DEB2931EB5800B12EBE;
+			remoteInfo = "WaIE-APOD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116EBBCAAA8D4CBFD7BD7CA8 /* Pods_WaIE_APODTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaIE_APODTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3C454CD64323EECFB05759 /* Pods-WaIE-APODTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaIE-APODTests.debug.xcconfig"; path = "Target Support Files/Pods-WaIE-APODTests/Pods-WaIE-APODTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57B0ADD9F454E112CED310FC /* Pods_WaIE_APOD_WaIE_APODUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaIE_APOD_WaIE_APODUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F692BF07C94576D86128986 /* Pods-WaIE-APOD-WaIE-APODUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaIE-APOD-WaIE-APODUITests.release.xcconfig"; path = "Target Support Files/Pods-WaIE-APOD-WaIE-APODUITests/Pods-WaIE-APOD-WaIE-APODUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63261FD8F719874176B2CE70 /* Pods_WaIE_APOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaIE_APOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8C1FED5649DBBFD2708B81 /* Pods-WaIE-APOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaIE-APOD.debug.xcconfig"; path = "Target Support Files/Pods-WaIE-APOD/Pods-WaIE-APOD.debug.xcconfig"; sourceTree = "<group>"; };
+		81CEC24ED480D7097316A876 /* Pods-WaIE-APOD-WaIE-APODUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaIE-APOD-WaIE-APODUITests.debug.xcconfig"; path = "Target Support Files/Pods-WaIE-APOD-WaIE-APODUITests/Pods-WaIE-APOD-WaIE-APODUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDE34DEC2931EB5800B12EBE /* WaIE-APOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WaIE-APOD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE34DEF2931EB5800B12EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE34DF12931EB5800B12EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDE34DF32931EB5800B12EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE34DF62931EB5800B12EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE34DF92931EB5800B12EBE /* WaIE_APOD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaIE_APOD.xcdatamodel; sourceTree = "<group>"; };
+		BDE34DFB2931EB5B00B12EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE34DFE2931EB5B00B12EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE34E002931EB5B00B12EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE34E052931EB5B00B12EBE /* WaIE-APODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaIE-APODTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE34E092931EB5B00B12EBE /* WaIE_APODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaIE_APODTests.swift; sourceTree = "<group>"; };
+		BDE34E0F2931EB5B00B12EBE /* WaIE-APODUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaIE-APODUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE34E132931EB5B00B12EBE /* WaIE_APODUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaIE_APODUITests.swift; sourceTree = "<group>"; };
+		BDE34E152931EB5B00B12EBE /* WaIE_APODUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaIE_APODUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE34E222931EBEB00B12EBE /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BDE34E2529328F0300B12EBE /* APODData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APODData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BDE34E2629328F0300B12EBE /* APODData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APODData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BDE34E2929329C3A00B12EBE /* reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reachability.swift; sourceTree = "<group>"; };
+		E00B664EFB3C5167DF1CDA6D /* Pods-WaIE-APODTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaIE-APODTests.release.xcconfig"; path = "Target Support Files/Pods-WaIE-APODTests/Pods-WaIE-APODTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9382FEC3A541893B5692616 /* Pods-WaIE-APOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaIE-APOD.release.xcconfig"; path = "Target Support Files/Pods-WaIE-APOD/Pods-WaIE-APOD.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE34DE92931EB5800B12EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36BE3364B8EC753DEC4B269 /* Pods_WaIE_APOD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE34E022931EB5B00B12EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EFE5108638FB3D50C4EC91 /* Pods_WaIE_APODTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE34E0C2931EB5B00B12EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BCD23AA127D1C64913B498 /* Pods_WaIE_APOD_WaIE_APODUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC02D55E8AF2D36A490B2E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63261FD8F719874176B2CE70 /* Pods_WaIE_APOD.framework */,
+				57B0ADD9F454E112CED310FC /* Pods_WaIE_APOD_WaIE_APODUITests.framework */,
+				116EBBCAAA8D4CBFD7BD7CA8 /* Pods_WaIE_APODTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE34DE32931EB5800B12EBE = {
+			isa = PBXGroup;
+			children = (
+				BDE34DEE2931EB5800B12EBE /* WaIE-APOD */,
+				BDE34E082931EB5B00B12EBE /* WaIE-APODTests */,
+				BDE34E122931EB5B00B12EBE /* WaIE-APODUITests */,
+				BDE34DED2931EB5800B12EBE /* Products */,
+				C6A7E3B68D11EA12E6B37617 /* Pods */,
+				AC02D55E8AF2D36A490B2E5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE34DED2931EB5800B12EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE34DEC2931EB5800B12EBE /* WaIE-APOD.app */,
+				BDE34E052931EB5B00B12EBE /* WaIE-APODTests.xctest */,
+				BDE34E0F2931EB5B00B12EBE /* WaIE-APODUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE34DEE2931EB5800B12EBE /* WaIE-APOD */ = {
+			isa = PBXGroup;
+			children = (
+				BDE34E2429328EF500B12EBE /* Model */,
+				BDE34DEF2931EB5800B12EBE /* AppDelegate.swift */,
+				BDE34DF12931EB5800B12EBE /* SceneDelegate.swift */,
+				BDE34E2929329C3A00B12EBE /* reachability.swift */,
+				BDE34DF32931EB5800B12EBE /* ViewController.swift */,
+				BDE34E222931EBEB00B12EBE /* APIManager.swift */,
+				BDE34DF52931EB5800B12EBE /* Main.storyboard */,
+				BDE34DFB2931EB5B00B12EBE /* Assets.xcassets */,
+				BDE34DFD2931EB5B00B12EBE /* LaunchScreen.storyboard */,
+				BDE34E002931EB5B00B12EBE /* Info.plist */,
+				BDE34DF82931EB5800B12EBE /* WaIE_APOD.xcdatamodeld */,
+			);
+			path = "WaIE-APOD";
+			sourceTree = "<group>";
+		};
+		BDE34E082931EB5B00B12EBE /* WaIE-APODTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE34E092931EB5B00B12EBE /* WaIE_APODTests.swift */,
+			);
+			path = "WaIE-APODTests";
+			sourceTree = "<group>";
+		};
+		BDE34E122931EB5B00B12EBE /* WaIE-APODUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE34E132931EB5B00B12EBE /* WaIE_APODUITests.swift */,
+				BDE34E152931EB5B00B12EBE /* WaIE_APODUITestsLaunchTests.swift */,
+			);
+			path = "WaIE-APODUITests";
+			sourceTree = "<group>";
+		};
+		BDE34E2429328EF500B12EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDE34E2629328F0300B12EBE /* APODData+CoreDataClass.swift */,
+				BDE34E2529328F0300B12EBE /* APODData+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6A7E3B68D11EA12E6B37617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C8C1FED5649DBBFD2708B81 /* Pods-WaIE-APOD.debug.xcconfig */,
+				E9382FEC3A541893B5692616 /* Pods-WaIE-APOD.release.xcconfig */,
+				81CEC24ED480D7097316A876 /* Pods-WaIE-APOD-WaIE-APODUITests.debug.xcconfig */,
+				5F692BF07C94576D86128986 /* Pods-WaIE-APOD-WaIE-APODUITests.release.xcconfig */,
+				1C3C454CD64323EECFB05759 /* Pods-WaIE-APODTests.debug.xcconfig */,
+				E00B664EFB3C5167DF1CDA6D /* Pods-WaIE-APODTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE34DEB2931EB5800B12EBE /* WaIE-APOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE34E192931EB5B00B12EBE /* Build configuration list for PBXNativeTarget "WaIE-APOD" */;
+			buildPhases = (
+				5FBD7420DA4B3B2A652B503C /* [CP] Check Pods Manifest.lock */,
+				BDE34DE82931EB5800B12EBE /* Sources */,
+				BDE34DE92931EB5800B12EBE /* Frameworks */,
+				BDE34DEA2931EB5800B12EBE /* Resources */,
+				AD2EC4DB74958F876C1ADBA1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaIE-APOD";
+			productName = "WaIE-APOD";
+			productReference = BDE34DEC2931EB5800B12EBE /* WaIE-APOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE34E042931EB5B00B12EBE /* WaIE-APODTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE34E1C2931EB5B00B12EBE /* Build configuration list for PBXNativeTarget "WaIE-APODTests" */;
+			buildPhases = (
+				10AEFB7645B7BDDBF6D5C7A4 /* [CP] Check Pods Manifest.lock */,
+				BDE34E012931EB5B00B12EBE /* Sources */,
+				BDE34E022931EB5B00B12EBE /* Frameworks */,
+				BDE34E032931EB5B00B12EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE34E072931EB5B00B12EBE /* PBXTargetDependency */,
+			);
+			name = "WaIE-APODTests";
+			productName = "WaIE-APODTests";
+			productReference = BDE34E052931EB5B00B12EBE /* WaIE-APODTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDE34E0E2931EB5B00B12EBE /* WaIE-APODUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE34E1F2931EB5B00B12EBE /* Build configuration list for PBXNativeTarget "WaIE-APODUITests" */;
+			buildPhases = (
+				919D04768E8C93FBE6A3EB98 /* [CP] Check Pods Manifest.lock */,
+				BDE34E0B2931EB5B00B12EBE /* Sources */,
+				BDE34E0C2931EB5B00B12EBE /* Frameworks */,
+				BDE34E0D2931EB5B00B12EBE /* Resources */,
+				291F030C8B7309A4C247D3E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE34E112931EB5B00B12EBE /* PBXTargetDependency */,
+			);
+			name = "WaIE-APODUITests";
+			productName = "WaIE-APODUITests";
+			productReference = BDE34E0F2931EB5B00B12EBE /* WaIE-APODUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE34DE42931EB5800B12EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BDE34DEB2931EB5800B12EBE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					BDE34E042931EB5B00B12EBE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BDE34DEB2931EB5800B12EBE;
+					};
+					BDE34E0E2931EB5B00B12EBE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BDE34DEB2931EB5800B12EBE;
+					};
+				};
+			};
+			buildConfigurationList = BDE34DE72931EB5800B12EBE /* Build configuration list for PBXProject "WaIE-APOD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE34DE32931EB5800B12EBE;
+			productRefGroup = BDE34DED2931EB5800B12EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE34DEB2931EB5800B12EBE /* WaIE-APOD */,
+				BDE34E042931EB5B00B12EBE /* WaIE-APODTests */,
+				BDE34E0E2931EB5B00B12EBE /* WaIE-APODUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE34DEA2931EB5800B12EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE34DFF2931EB5B00B12EBE /* LaunchScreen.storyboard in Resources */,
+				BDE34DFC2931EB5B00B12EBE /* Assets.xcassets in Resources */,
+				BDE34DF72931EB5800B12EBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE34E032931EB5B00B12EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE34E0D2931EB5B00B12EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10AEFB7645B7BDDBF6D5C7A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaIE-APODTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		291F030C8B7309A4C247D3E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaIE-APOD-WaIE-APODUITests/Pods-WaIE-APOD-WaIE-APODUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaIE-APOD-WaIE-APODUITests/Pods-WaIE-APOD-WaIE-APODUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaIE-APOD-WaIE-APODUITests/Pods-WaIE-APOD-WaIE-APODUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBD7420DA4B3B2A652B503C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaIE-APOD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919D04768E8C93FBE6A3EB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaIE-APOD-WaIE-APODUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2EC4DB74958F876C1ADBA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaIE-APOD/Pods-WaIE-APOD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaIE-APOD/Pods-WaIE-APOD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaIE-APOD/Pods-WaIE-APOD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE34DE82931EB5800B12EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE34DF42931EB5800B12EBE /* ViewController.swift in Sources */,
+				BDE34E2729328F0300B12EBE /* APODData+CoreDataProperties.swift in Sources */,
+				BDE34E2829328F0300B12EBE /* APODData+CoreDataClass.swift in Sources */,
+				BDE34DF02931EB5800B12EBE /* AppDelegate.swift in Sources */,
+				BDE34E232931EBEB00B12EBE /* APIManager.swift in Sources */,
+				BDE34DF22931EB5800B12EBE /* SceneDelegate.swift in Sources */,
+				BDE34E2A29329C3A00B12EBE /* reachability.swift in Sources */,
+				BDE34DFA2931EB5800B12EBE /* WaIE_APOD.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE34E012931EB5B00B12EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE34E0A2931EB5B00B12EBE /* WaIE_APODTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE34E0B2931EB5B00B12EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE34E162931EB5B00B12EBE /* WaIE_APODUITestsLaunchTests.swift in Sources */,
+				BDE34E142931EB5B00B12EBE /* WaIE_APODUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE34E072931EB5B00B12EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE34DEB2931EB5800B12EBE /* WaIE-APOD */;
+			targetProxy = BDE34E062931EB5B00B12EBE /* PBXContainerItemProxy */;
+		};
+		BDE34E112931EB5B00B12EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE34DEB2931EB5800B12EBE /* WaIE-APOD */;
+			targetProxy = BDE34E102931EB5B00B12EBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE34DF52931EB5800B12EBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE34DF62931EB5800B12EBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE34DFD2931EB5B00B12EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE34DFE2931EB5B00B12EBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE34E172931EB5B00B12EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDE34E182931EB5B00B12EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE34E1A2931EB5B00B12EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8C1FED5649DBBFD2708B81 /* Pods-WaIE-APOD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMT7JZX6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WaIE-APOD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeta.WaIE-APOD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE34E1B2931EB5B00B12EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9382FEC3A541893B5692616 /* Pods-WaIE-APOD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMT7JZX6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WaIE-APOD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeta.WaIE-APOD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDE34E1D2931EB5B00B12EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3C454CD64323EECFB05759 /* Pods-WaIE-APODTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMT7JZX6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeta.WaIE-APODTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaIE-APOD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaIE-APOD";
+			};
+			name = Debug;
+		};
+		BDE34E1E2931EB5B00B12EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00B664EFB3C5167DF1CDA6D /* Pods-WaIE-APODTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMT7JZX6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeta.WaIE-APODTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaIE-APOD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaIE-APOD";
+			};
+			name = Release;
+		};
+		BDE34E202931EB5B00B12EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81CEC24ED480D7097316A876 /* Pods-WaIE-APOD-WaIE-APODUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMT7JZX6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeta.WaIE-APODUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WaIE-APOD";
+			};
+			name = Debug;
+		};
+		BDE34E212931EB5B00B12EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F692BF07C94576D86128986 /* Pods-WaIE-APOD-WaIE-APODUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMT7JZX6R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeta.WaIE-APODUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WaIE-APOD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE34DE72931EB5800B12EBE /* Build configuration list for PBXProject "WaIE-APOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE34E172931EB5B00B12EBE /* Debug */,
+				BDE34E182931EB5B00B12EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE34E192931EB5B00B12EBE /* Build configuration list for PBXNativeTarget "WaIE-APOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE34E1A2931EB5B00B12EBE /* Debug */,
+				BDE34E1B2931EB5B00B12EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE34E1C2931EB5B00B12EBE /* Build configuration list for PBXNativeTarget "WaIE-APODTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE34E1D2931EB5B00B12EBE /* Debug */,
+				BDE34E1E2931EB5B00B12EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE34E1F2931EB5B00B12EBE /* Build configuration list for PBXNativeTarget "WaIE-APODUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE34E202931EB5B00B12EBE /* Debug */,
+				BDE34E212931EB5B00B12EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDE34DF82931EB5800B12EBE /* WaIE_APOD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDE34DF92931EB5800B12EBE /* WaIE_APOD.xcdatamodel */,
+			);
+			currentVersion = BDE34DF92931EB5800B12EBE /* WaIE_APOD.xcdatamodel */;
+			path = WaIE_APOD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDE34DE42931EB5800B12EBE /* Project object */;
+}
